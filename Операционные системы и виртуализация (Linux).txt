@@ -1,0 +1,25 @@
+1. - cat > Pets.txt
+Fido(Dog), Whiskers(Cat), Hammy(Hamster), Buddy(Dog), Smudge(Cat), Peanut(Hamster), Bella(Dog), Olivar(Cat)
+   -	cat > PackAnimals.txt
+Thunder(Horse), Sandy(Camel), Eyeore(Donkey), Storm(Horse), Dune(Camel), Burro(Donkey), Blaze(Horse), Sahara(Camel)
+   -	cat Pets.txt PackAnimals.txt > HumanFriends.txt
+   -	ls: compose     HumanFriends.txt   Pets.txt   snap         Видео       Загрузки      Музыка         'Рабочий стол'
+homework4   PackAnimals.txt    shared     testfolder   Документы  Изображения   Общедоступные   Шаблоны
+2.	mv HumanFriends.txt HumanFriends/
+3. - wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+   - sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+   - sudo apt-get update
+   - sudo apt-get install mysql-server
+4. - wget http://archive.ubuntu.com/ubuntu/pool/universe/c/cowsay/cowsay_3.03+dfsg2-7_all.deb
+   - sudo dpkg -i cowsay_3.03+dfsg2-7_all.deb
+   - cowsay "Привет"
+ ________
+< Привет >
+ --------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+-	sudo dpkg -r cowsay
